@@ -8,8 +8,8 @@ while True:
     guess = int(input('Введите число:'))
     if guess < numb:
         print('Ваше число меньше загаданного.')
-    if guess > numb:
+    elif guess > numb:
         print('Ваше число больше загаданного.')
-    if guess == numb:
+    elif guess == numb:
         break
-print('Отлично, вы угадали число: ',numb,'. Поздравляем!')
+print('Отлично, вы угадали число: ',numb)
