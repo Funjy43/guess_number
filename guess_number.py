@@ -1,7 +1,7 @@
 from random import randint
 
 
-numb = randint(1,100)
+numb = randint(1, 100)
 print('Угадайте число от 1 до 100.')
 
 while True:
@@ -12,4 +12,4 @@ while True:
         print('Ваше число больше загаданного.')
     elif guess == numb:
         break
-print('Отлично, вы угадали число: ',numb)
+print('Отлично, вы угадали число: ', numb)
